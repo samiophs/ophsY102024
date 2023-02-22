@@ -1,0 +1,20 @@
+email = "12345@gmail.com"
+name = "saMI"
+console = "pc"
+age = 100
+
+#ABOVE IS TWO VARIABLES , ONE IS EMAIL
+#ONE IS NAME
+#BOTH CONTAIN DATA
+
+print(email)
+print(name)
+print(console)
+print(age)
+
+price =  10.99
+print(price)
+
+#print is a function
+#it displays text to the screen
+
