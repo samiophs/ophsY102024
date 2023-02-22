@@ -1,0 +1,10 @@
+name = str(input("enter name:"))
+print(name)
+
+age = int(input("enter age >>>"))
+print(age)
+
+bestcolor = str(input("enter favourite color"))
+
+
+print("your name is",name,"your age is",age,"your fav color is",bestcolor,)
