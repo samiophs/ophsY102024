@@ -1,0 +1,6 @@
+#Rules of variables
+#Cannot start with a number
+#Can end with a number
+#Can contain an underscore
+
+this_is_an_ok_variable = True
