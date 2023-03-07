@@ -1,0 +1,13 @@
+#SELECTION
+
+#Selection uses if/elif and else
+#Things people get wrong
+
+#Things people get wrong
+
+age = int(input("enter age"))
+
+if age < 12:
+  print("You are too young")
+
+print("bye")  
