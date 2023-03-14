@@ -1,0 +1,9 @@
+food = str(input("enter favourite food >>> "))
+
+if food == "kebab":
+  print("Hmmmm my favourite")
+  print("I feel like saying",food,"a 100 times")
+  print(100 * (food + "!"))
+else:
+  print("im hungry")
+
