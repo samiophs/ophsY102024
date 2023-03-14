@@ -1,0 +1,15 @@
+#challenges04
+
+favcolor = str(input("enter urfav color"))
+
+if favcolor == "red":
+  print("I like",favcolor,"too.")
+
+if favcolor == "Red":
+  print("I like",favcolor,"too.")
+  
+if favcolor == "RED":
+  print("I like",favcolor,"too.")
+  
+else:
+  print("I don't like",favcolor,",",favcolor,"is for losers")
