@@ -1,0 +1,10 @@
+number = int(input("enter a number"))
+
+if number < 10:
+  print("too low")
+
+if number > 10 and number < 20:
+  print("correct")
+  
+if number > 20:
+  print("too high you crazy pizza pie")
