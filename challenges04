@@ -11,5 +11,5 @@ if favcolor == "Red":
 if favcolor == "RED":
   print("I like",favcolor,"too.")
   
-else:
+if favcolor != "red" :
   print("I don't like",favcolor,",",favcolor,"is for losers")
