@@ -8,3 +8,21 @@ if num3 > 20:
   
 else:
   print("thanks")
+
+
+
+#edited
+
+#challenges02
+
+print("enter a number 1-20")
+num3 = int(input("enter a number 1-20"))
+
+if num3 > 20:
+  print("too high")
+
+if num3 < 0:
+  print("too low")
+  
+else:
+  print("thanks")
