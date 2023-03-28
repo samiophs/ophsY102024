@@ -1,0 +1,22 @@
+number = int(input("enter a number 1 , 2 or 3"))
+
+if number == 1:
+  print("thank you")
+  
+if number == 2:
+  print("well done , your so smart")
+
+if number == 3:
+  print("amazing your so good at this")
+  
+if number >= 4:
+  print("really? what the hell is wrong with you?")
+  
+if number <= 0:
+  print("really? what the hell is wrong with you?")
+  
+while number >= 4 :
+  int(input("only enter a number 1, 2 or 3 not higher than 3"))
+  
+while number <= 0 :
+  int(input("only enter a number 1, 2 or 3 , not less than 0"))
