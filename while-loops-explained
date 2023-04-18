@@ -1,0 +1,14 @@
+answer = "N"
+while answer != "Y":
+  print("are we there yet?")
+  answer = str(input("please enter Y or N"))
+print("Yay we are there!")
+
+
+
+#while loops 2
+
+number = 0 
+while number != 8:
+  number = number + 1
+  print("the number is", number)
