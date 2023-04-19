@@ -1,0 +1,13 @@
+
+import sys
+
+number = 0
+ask = 0
+while ask < 5:
+  ask = int(input("enter a number"))
+  
+  if ask > 5:
+    print("you entered the number,",ask)
+  
+  
+exit(sys)
