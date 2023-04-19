@@ -1,0 +1,16 @@
+import sys
+answer = True
+ask = int(input("enter a number"))
+while answer == True:
+  number = int(input("enter a second number"))
+  total = ask + number
+  print(total,"is your number")
+  replay = input("y or n").upper()
+  if replay == "Y":
+    replay = True
+  
+  if replay != "Y":
+    replay = False
+    
+  if replay == False:
+    exit(sys)
