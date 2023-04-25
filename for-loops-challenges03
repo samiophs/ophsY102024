@@ -1,0 +1,3 @@
+number = int(input("enter a numnber below 50"))
+for number in range(50,number,-1):
+  print(number)
