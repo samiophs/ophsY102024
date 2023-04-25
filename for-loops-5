@@ -1,0 +1,3 @@
+animals =  ["cat","dog","horse","rabbit","donkey"]
+for nextAnimal in animals:
+  print("the next animal is",nextAnimal)
