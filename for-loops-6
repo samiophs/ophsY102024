@@ -1,0 +1,9 @@
+myList =  ["cat","dog","horse","rabbit","donkey"]
+for next in myList:
+  if next[0] == "c":
+    print(next)
+
+
+
+
+
