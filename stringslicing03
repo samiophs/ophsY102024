@@ -1,0 +1,4 @@
+first = input("enter your first name in lower case").lower()
+last = input("enter your last name in lower case").lower()
+full = first + " " +  last
+print(full)
