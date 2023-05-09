@@ -1,0 +1,27 @@
+import random
+num = random.randint(1,5)
+ask = int(input("enter a number 1-5"))
+if ask == num:
+  print("wow you guessed correct")
+else:
+  print("try again 1/2")
+
+if ask > num:
+  print("too low 1/2")
+if ask < num:
+  print("too high 1/2")
+  
+import random
+num = random.randint(1,5)
+ask = int(input("enter a number 1-5"))
+if ask == num:
+  print("wow you guessed correct")
+else:
+  print("try again 2/2")
+
+if ask > num:
+  print("too low, you lose 2/2")
+if ask < num:
+  print("too high, you lose 2/2")
+
+
