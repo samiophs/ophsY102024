@@ -1,1 +1,14 @@
+string1 = "1"
+string2 = "2"
+
+concatination = string1 + string2
+print(concatination)
+
+#casting w integers
+cstring1 = int(string1)
+cstring2 = int(string2)
+adding = cstring1 + cstring2
+print(adding)
+
+
 
