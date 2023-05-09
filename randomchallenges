@@ -1,0 +1,9 @@
+import random
+list = ["heads","tails"]
+x =  random.choice(list)
+y = str(input("enter heads or tails"))
+if y == x:
+  print("wow you guessed correct")
+  
+else:
+  print("bad luck, try again")
