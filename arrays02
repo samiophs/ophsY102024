@@ -1,0 +1,9 @@
+cars = []
+x = True
+while x == True:
+  car1 = input("enter car or press x to exit")
+  cars.append(car1)
+  print(cars)
+  if car1 ==  "x":
+    print("exiting...")
+    sys.exit
