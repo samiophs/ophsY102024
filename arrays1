@@ -1,0 +1,8 @@
+cars = []
+car1 = input("enter car")
+car2 = input("enter 2nd car")
+car3 = input("enter 3rd car")
+cars.append(car1)
+cars.append(car2)
+cars.append(car3)
+print(cars)
