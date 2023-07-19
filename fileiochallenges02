@@ -1,0 +1,9 @@
+notepad = open("names.txt", "w")
+x = 0
+while x < 5:
+    x = x + 1
+    userlines = input("write something >>>")
+    notepad.write(userlines)
+    print(x)
+notepad.close()
+print("\ngo and open numbers.txt")
