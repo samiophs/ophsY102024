@@ -1,0 +1,24 @@
+# Currency converter program
+
+# -------------------------
+# Subprograms
+# -------------------------
+def exchange(gbp, currency):
+  match currency33:
+    case "USD":
+      return gbp * 1.3
+    case "Euro":
+      return gbp * 1.11
+    case "Yuan":
+      return gbp * 8.92
+    case "Yen":
+      return gbp * 138.44
+    
+
+# -------------------------
+# Main program
+# -------------------------
+gbp = float(input("enter GBP"))
+currency = str(input("enter currency USD, Euro, Yuan, Yen"))
+money = exchange(gbp, currency)
+print(gbp, "GBP =", money, currency)
