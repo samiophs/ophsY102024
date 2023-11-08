@@ -1,0 +1,42 @@
+# Cashpoint program
+
+# -------------------------
+# Subprograms
+# -------------------------
+# Control unit output
+
+def dispense(amount):
+  print("Withdraw amount £" + amount)
+  #£20 notes
+  iamount = int(amount)
+  
+  while iamount >= 100:
+    iamount = iamount - 100
+    print("£100")
+    
+  while iamount >= 50:
+    iamount = iamount - 50
+    print("£50")
+  
+  while iamount >= 20:
+    iamount = iamount - 20
+    print("£20")
+    
+  # £10 notes  
+  while iamount >= 10:
+    iamount = iamount - 10
+    print("£10")
+    
+  while iamount >= 5:
+    iamount = iamount - 5
+    print("£5")
+    
+  else:
+    if iamount <=5:
+      print("Remainder of £",iamount,"which cannot be withdrawn")
+
+# -------------------------
+# Main program
+# -------------------------
+amount = input("Enter the amount to withdraw: £")
+dispense(amount)
