@@ -1,0 +1,8 @@
+list.append(item)
+list.insert
+list.pop(index)
+list.remove(item)
+list.index(item)
+list.count(item)
+list.reverse
+
